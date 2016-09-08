@@ -1,0 +1,16 @@
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th>Team Standings</th>
+      <th>Players</th>
+      <th>Points</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr ng-repeat="team in teams">
+      <td>Team {{team.number}}</td>
+      <td>{{team.players}}</td>
+      <td>{{team.points}}</td>
+    </tr>
+  </tbody>
+</table>
