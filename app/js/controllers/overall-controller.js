@@ -1,2 +1,2 @@
-angular.module('NoteWrangler').controller('OverallController', function($scope) {
+angular.module('NextGolf').controller('OverallController', function($scope) {
 });

@@ -1,4 +1,4 @@
-angular.module('NoteWrangler').controller('WeekController', function($scope) {
+angular.module('NextGolf').controller('WeekController', function($scope) {
   $scope.saveWeek = function () {
 
   };

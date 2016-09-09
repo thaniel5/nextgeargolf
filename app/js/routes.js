@@ -4,7 +4,7 @@
   in this file. Since this isn't a node course we're going to skip it. For all intensive
   purposes, html5 mode and url hash mode perform the same when within an angular app.
 */
-angular.module('NoteWrangler').config(['$routeProvider', function($routeProvider) {
+angular.module('NextGolf').config(['$routeProvider', function($routeProvider) {
   $routeProvider
     .when('/', {
       templateUrl: 'templates/pages/overall.html',

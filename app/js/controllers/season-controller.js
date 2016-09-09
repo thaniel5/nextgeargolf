@@ -1,4 +1,4 @@
-angular.module('NoteWrangler').controller('SeasonController', function($scope) {
+angular.module('NextGolf').controller('SeasonController', function($scope) {
 
   $scope.player1 = {
     firstName: null,
