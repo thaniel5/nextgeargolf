@@ -11,39 +11,19 @@ angular.module('NoteWrangler').config(['$routeProvider', function($routeProvider
       controller: 'OverallController'
     })
 
+    .when('/week/create', {
+      templateUrl: 'templates/pages/week-create.html',
+      controller: 'WeekController'
+    })
+
     .when('/week/:week', {
       templateUrl: 'templates/pages/week.html',
       controller: 'WeekController'
     })
 
-    .when('/users/:id', {
-      templateUrl: 'templates/pages/users/show.html',
-      controller: 'UsersShowController'
-    })
-
-    .when('/notes', {
-      templateUrl: 'templates/pages/notes/index.html',
-      controller: 'NotesIndexController'
-    })
-
-    .when('/notes/new', {
-      templateUrl: 'templates/pages/notes/edit.html',
-      controller: 'NotesCreateController'
-    })
-
-    .when('/notes/:id', {
-      templateUrl: 'templates/pages/notes/show.html',
-      controller: 'NotesShowController'
-    })
-
-    .when('/notes/:id/edit', {
-      templateUrl: 'templates/pages/notes/edit.html',
-      controller: 'NotesEditController'
-    })
-
-    .when('/profile/edit', {
-      templateUrl: 'templates/pages/profile/edit.html',
-      controller: 'ProfileEditController'
+    .when('/season/create', {
+      templateUrl: 'templates/pages/season-create.html',
+      controller: 'SeasonController'
     })
 
     .otherwise({redirectTo: '/'});
